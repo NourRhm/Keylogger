@@ -11,20 +11,28 @@ Keylogger
 </p>
 
 ## Project description
-This mini project is for educational purposes. it leverages the pynput library to create a simple keylogger that gets keyboard and mouse position input and sends it to your mail every one hour.
+This project is a keylogger that captures both keyboard inputs and mouse positions. It logs the data in the background and sends it to a designated email address every hour. This project is desgned for educational and research purposes only to explore the security implications of keyloggers. Misuse of this tool is illegal and strictly prohibited.
 
 - What is Keylogger?
 
 ## Features
+- Logs keystrokes and mouse position in the background.
+- Saves data in a text file locally.
+- Automatically sends logged data to an email address every 1 hour.
+- Runs discreetly in hidden mode.
 
-## Requirements
-Before starting, you need to have Python installed.
+## Prerequisites
 
-## Let's have fun
+Before running the keylogger, ensure you have the following installed:
+
+- [Python 3.x](https://www.python.org/downloads/)
+- Required Python libraries:
+  - `pynput` (for capturing keyboard and mouse events)
+  - `smtplib` (for sending emails)
 
 
-<p align="center">
-ENJOY 
-   <img src="https://pngimage.net/wp-content/uploads/2018/06/hacker-mask-png-1.png" width="40px" margin = "30px">
+To install the required libraries, run:
 
-</p>
+```bash
+pip install pynput smtplib
+
